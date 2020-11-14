@@ -1,0 +1,267 @@
+{
+  "users": [
+    {
+      "name": "demo",
+      "email": "demo@demo",
+      "password": "demo",
+      "id": "1",
+      "isAuthorized": true
+    },
+    {
+      "name": "Никита",
+      "email": "111@1.ru",
+      "password": "111",
+      "id": "4ipsng05x0khhnnvjn",
+      "isAuthorized": false
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Банк",
+      "user_id": "1",
+      "id": "1"
+    },
+    {
+      "name": "Магазин",
+      "user_id": "1",
+      "id": "2"
+    },
+    {
+      "name": "Бизнес",
+      "user_id": "1",
+      "id": "3"
+    }
+  ],
+  "transactions": [
+    {
+      "account_id": "1",
+      "created_at": "2019-09-17 15:53:02",
+      "id": "2",
+      "name": "Баланс на дебетовке",
+      "sum": 3200,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "1",
+      "created_at": "2019-09-19 20:12:02",
+      "id": "3",
+      "name": "Копилка",
+      "sum": 1500,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 16:23:02",
+      "id": "4",
+      "name": "Молочные продукты",
+      "sum": 100,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "5",
+      "name": "Фрукты",
+      "sum": 250,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-25 15:03:02",
+      "id": "17",
+      "name": "Овощи",
+      "sum": 300,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-26 14:47:02",
+      "id": "6",
+      "name": "Мясо",
+      "sum": 600,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "2",
+      "created_at": "2019-09-27 13:27:02",
+      "id": "7",
+      "name": "Долг в банк",
+      "sum": 5000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "9",
+      "name": "На банду",
+      "sum": 15000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-17 13:27:02",
+      "id": "10",
+      "name": "На стволы",
+      "sum": 6000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-12-27 13:27:02",
+      "id": "11",
+      "name": "Прибыль с банка",
+      "sum": 1500000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "12",
+      "name": "Прибыль с магазина",
+      "sum": 300000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2018-01-15 13:27:02",
+      "id": "13",
+      "name": "Подарок сизого",
+      "sum": 20000,
+      "type": "income",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-09-15 13:27:02",
+      "id": "14",
+      "name": "На охрану",
+      "sum": 60000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "account_id": "3",
+      "created_at": "2017-10-15 13:27:02",
+      "id": "15",
+      "name": "На бумер",
+      "sum": 300000,
+      "type": "expense",
+      "user_id": "1"
+    },
+    {
+      "id": "4ipsng09mokhi0jo8p",
+      "type": "EXPENSE",
+      "name": "Никита",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:18:10.680Z"
+    },
+    {
+      "id": "4ipsng0218khi0ke3y",
+      "type": "INCOME",
+      "name": "Никита",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:18:44.205Z"
+    },
+    {
+      "id": "4ipsng04yskhi0mfgq",
+      "type": "INCOME",
+      "name": "Никита Жигилей",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:20:19.273Z"
+    },
+    {
+      "id": "4ipsng0pskhi0no7f",
+      "type": "INCOME",
+      "name": "Никита Жигилей",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:21:17.258Z"
+    },
+    {
+      "id": "4ipsng06akkhi0pyqo",
+      "type": "EXPENSE",
+      "name": "Никита",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:23:04.223Z"
+    },
+    {
+      "id": "4ipsng06f8khi0qwpo",
+      "type": "INCOME",
+      "name": "Никита",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:23:48.251Z"
+    },
+    {
+      "id": "4ipsng0970khi0r4zm",
+      "type": "INCOME",
+      "name": "Никита",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:23:58.977Z"
+    },
+    {
+      "id": "4ipsng02g8khi0slxy",
+      "type": "EXPENSE",
+      "name": "Никита",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:25:07.605Z"
+    },
+    {
+      "id": "4ipsng06yskhi0t8si",
+      "type": "INCOME",
+      "name": "Никита Жигилей",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:25:37.217Z"
+    },
+    {
+      "id": "4ipsng0aaskhi0tn1h",
+      "type": "INCOME",
+      "name": "Никита Жигилей",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T18:25:55.684Z"
+    },
+    {
+      "id": "4ipsng0t8khi3fx10",
+      "type": "INCOME",
+      "name": "Так",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T19:39:14.291Z"
+    },
+    {
+      "id": "4ipsng09r0khi3h9ok",
+      "type": "INCOME",
+      "name": "Никита",
+      "sum": 100,
+      "account_id": "4ipsng0apgkhi01eh9",
+      "created_at": "2020-11-14T19:40:17.347Z"
+    },
+    {
+      "id": "4ipsng04iokhi3knyk",
+      "type": "EXPENSE",
+      "name": "Тинькоф",
+      "sum": 100,
+      "account_id": "4ipsng08ewkhi3kcsr",
+      "created_at": "2020-11-14T19:42:55.819Z"
+    }
+  ]
+}
